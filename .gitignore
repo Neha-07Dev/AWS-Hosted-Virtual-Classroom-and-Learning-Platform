@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Ignore OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.sqlite3
+
+# Ignore compiled code
+*.pyo
+*.pyd
+*.so
+
+# Ignore AWS credentials (if any)
+.aws/
+*.pem
+*.key

@@ -5,8 +5,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import timedelta
 
 app = Flask(__name__)
-app.secret_key = "__YOUR_SECRET_KEY__" # 15-6-2025  updated 
-app.permanent_session_lifetime = timedelta(minutes=15)  # Session timeout
+app.secret_key = "__YOUR_SECRET_KEY__"  
+app.permanent_session_lifetime = timedelta(minutes=15)  
 
 # AWS S3 Config
 S3_BUCKET = 'aws-project-virtualclassroom'
